@@ -1,0 +1,69 @@
+body{
+    background: beige;
+}
+@keyframes g1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+}
+@keyframes g2{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+}
+@keyframes g3{
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+table{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 90vh;
+}
+th{
+    padding: 2vh;
+    background: white;
+    width: 50%;
+}
+.left{
+    animation:g1 2s linear 1;
+}
+.right{
+    animation:g2 2s linear 1;
+}
+.buttom{
+    animation:g3 2s linear 1;
+}
+.left h1{
+    font-size: 10vh;
+    line-height: 10%;
+}
+.left h2{
+    font-size: 7vh;
+}
+.left p{
+    font-size: 10vh;
+    
+}
+.right p{
+    font-size: 3.5vh; 
+}

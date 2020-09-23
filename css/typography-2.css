@@ -1,0 +1,17 @@
+#oswald{
+    font-family: 'Oswald', sans-serif;
+    color: royalblue;
+}
+#oswald h1{
+    color: mediumblue;
+    font-size: 10vh;
+    line-height: 50%;
+}
+#oswald h2{
+    color: dodgerblue;
+    font-size: 7vh;
+    line-height: 0%;
+}
+#oswald p{
+    color: black;
+}

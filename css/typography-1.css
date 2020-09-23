@@ -1,0 +1,17 @@
+#lobster{
+    font-family: 'Lobster', cursive;
+    color: crimson;
+}
+#lobster h1{
+    color: red;
+    font-size: 10vh;
+    line-height: 80%;
+}
+#lobster h2{
+    color: firebrick;
+    font-size: 7vh;
+    line-height: 20%;
+}
+#lobster p{
+    color: black;
+}
